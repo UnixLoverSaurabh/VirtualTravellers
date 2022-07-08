@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "com.google.ar.core.codelab.cloudanchor"
+
+        minSdkVersion 26
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // ARCore Library
+    implementation 'com.google.ar:core:1.32.0'
+
+    implementation project(":helpers")
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.gms:play-services-auth:16+'
+    implementation 'com.google.firebase:firebase-database:20.0.5'
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.17.1"
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.0'
+}
