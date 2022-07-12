@@ -17,4 +17,14 @@
 <resources>
   <!-- Strings in the main activity -->
   <string name="app_name">Cloud Anchor Codelab</string>
+  <string name="spinner_title">Destination</string>
+  <string name="clear">Search</string>
+  <string name="next">NEXT</string>
+  <string name="searching_surfaces">Searching for surfaces...</string>
+  <string name="select_destination_warning">Please select a destination</string>
+  <string name="destination_reached">You\'ve reached your destination.</string>
+  <string name="bglr_office_entry_gate">Entry Gate</string>
+  <string name="bglr_office_satish_cabin">Satish\'s Cabin</string>
+  <string name="bglr_office_sanjay_cabin">Sanjay\'s Cabin</string>
+  <string name="no_selection">No Selection</string>
 </resources>

@@ -58,8 +58,8 @@ public class ResolveDialogFragment extends DialogFragment {
     AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
     builder
         .setView(createDialogLayout())
-        .setTitle("Resolve Anchor")
-        .setPositiveButton("Resolve", (dialog, which) -> onResolvePressed())
+        .setTitle("Set starting point")
+        .setPositiveButton("Set", (dialog, which) -> onResolvePressed())
         .setNegativeButton("Cancel", (dialog, which) -> {});
     return builder.create();
   }

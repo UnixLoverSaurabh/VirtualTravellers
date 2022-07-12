@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 32
     defaultConfig {
         applicationId "com.google.ar.core.codelab.cloudanchor"
 
         minSdkVersion 26
-        targetSdkVersion 31
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
     }
@@ -33,4 +34,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation "com.google.ar.sceneform.ux:sceneform-ux:1.17.1"
     implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.0'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
+repositories {
+    mavenCentral()
 }

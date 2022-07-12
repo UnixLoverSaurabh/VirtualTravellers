@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">क्लाउड एंकर कोडलैब</string>
+    <string name="clear">खोज</string>
+    <string name="next">अगला</string>
+    <string name="spinner_title">मंज़िल</string>
+    <string name="searching_surfaces">सतहों की खोज…</string>
+    <string name="select_destination_warning">कृपया मंजिल चुनें</string>
+    <string name="destination_reached">आप अपनी मंजिल पर पहुंच गए हैं।</string>
+    <string name="bglr_office_entry_gate">प्रवेश द्वार</string>
+    <string name="bglr_office_satish_cabin">सतीश का केबिन</string>
+    <string name="bglr_office_sanjay_cabin">संजय का केबिन</string>
+    <string name="no_selection">कोई चयन नहीं</string>
+</resources>
